@@ -88,7 +88,7 @@ while True:
     opcao = input("Escolha uma opção: ")
 
     if opcao == "1":
-        nome, email, senha = tela_registro()3
+        nome, email, senha = tela_registro()
         sistema.cadastrar_usuario(nome, email, senha)
     elif opcao == "2":
         email, senha = tela_login()
